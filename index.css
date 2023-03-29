@@ -1,0 +1,35 @@
+/* NavBar Begins */
+nav img {
+    height: 40px;
+}
+nav .header{
+    padding-inline: 350px;
+    
+}
+/* NavBar Ends */
+
+/* Header Begins */
+.head{
+    background-image: url(images/background-bags.webp);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.head h1{
+    padding-top: 200px;
+    padding-left: 500px;
+    color: rgb(226, 43, 43);
+    font-style: italic;
+    font-size: 50px;
+}
+/* Header Ends */
+
+/* Card begins */
+.card img{
+    height: 300px;
+}
+.card{
+    margin: 30px;
+}
+/* card ends */
