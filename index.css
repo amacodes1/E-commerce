@@ -3,8 +3,10 @@ nav img {
     height: 40px;
 }
 nav .header{
-    padding-inline: 350px;
-    
+    padding-inline: 300px;
+}
+nav .navbar-light .bg-light{
+    background-color: red !important;
 }
 /* NavBar Ends */
 
@@ -18,12 +20,27 @@ nav .header{
 }
 .head h1{
     padding-top: 200px;
-    padding-left: 500px;
-    color: rgb(226, 43, 43);
+    color: rgb(214, 7, 7);
     font-style: italic;
     font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
 }
 /* Header Ends */
+
+/* Product Begins */
+.product{
+    margin-left: 25rem;
+}
+.product .btn{
+    border-radius: 10px;
+}
+.product h3{
+    margin-left: 14rem;
+    color: red;
+    font-style: italic;
+}
+/* Product Ends */
 
 /* Card begins */
 .card img{
@@ -33,3 +50,9 @@ nav .header{
     margin: 30px;
 }
 /* card ends */
+
+/* direction begins */
+.direction{
+    margin-left: 35rem;
+}
+/* direction ends */
