@@ -30,18 +30,18 @@ let data = [
         image: "images/belt.jpeg"
     },
     {
-        id: 4,
-        name1: "Belt",
-        price: 400,
-        description: "High quality belt",
-        image: "images/belt.jpeg"
+        id: 5,
+        name1: "Wrist Watch",
+        price: 200,
+        description: "Michael Kors Wristwatch",
+        image: "images/gold-wristwatch.jpg"
     },
     {
-        id: 4,
-        name1: "Belt",
+        id: 6,
+        name1: "Kids dress",
         price: 150,
-        description: "High quality belt",
-        image: "images/belt.jpeg"
+        description: "Pink dress for girls age 2 - 5",
+        image: "images/pink-dress.webp"
     }
 ]
 
@@ -64,4 +64,3 @@ for (let i = 0; i < data.length; i++){
    `
    product.innerHTML = dataList;
 }
-

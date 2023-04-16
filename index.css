@@ -3,28 +3,62 @@ nav img {
     height: 40px;
 }
 nav .header{
-    padding-inline: 300px;
+    padding-inline: 200px;
 }
-nav .navbar-light .bg-light{
-    background-color: red !important;
+nav .header li{
+    padding-inline: 30px;
 }
+nav .header li a{
+    font-weight: 500;
+    font-style: italic;
+    color: black !important;
+}
+.active{
+    position: relative;
+}
+.active > * {
+    color: blue !important;
+}
+.active::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 100%;
+    background-color: blue;
+}
+nav .header a:hover{
+    transition: 0.3s;
+}
+/* nav .navbar-light .bg-light{
+    background-color: rgb(19, 18, 18) !important;
+} */
 /* NavBar Ends */
 
 /* Header Begins */
 .head{
-    background-image: url(images/background-bags.webp);
+    background-image: url(images/shoe-bg.jpg);
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 550px;
     background-repeat: no-repeat;
 }
 .head h1{
     padding-top: 200px;
-    color: rgb(214, 7, 7);
+    color: rgb(29, 61, 245);
     font-style: italic;
-    font-size: 50px;
+    font-family: cursive;
+    font-size: 70px;
     margin: 0 auto;
     text-align: center;
+    z-index: 1;
+}
+.head .overlay{
+    background-color: rgba(138, 61, 209, .3);
+    width: 100%;
+    height: 100%;
+
 }
 /* Header Ends */
 
